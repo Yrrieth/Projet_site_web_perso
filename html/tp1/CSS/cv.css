@@ -1,0 +1,17 @@
+html{
+    font-family:Arial,sans-serif;
+     font-size:16px;
+     background-color:white;
+     color:rgb(0,0,0);
+    }
+
+body{
+    font-size:18px;
+    }
+li{
+    text-decoration:underline;
+}
+
+.l{
+    text-decoration:none;
+}

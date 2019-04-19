@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible"content="IE-edge">
+    <meta charset="utf-8">
+    <title>Ex 9 - Formulaire</title>
+    <link rel="stylesheet" media="screen" href="CSS/style_ex9.css">
+    <link rel="stylesheet" media="screen" href="../CSS/style.css">
+  </head>
+
+  <body>
+  	<header id=haut>
+	    <div>
+		<a href="../index.html"><img src="../img/initiale.gif" alt="Logo du site" title="Logo du site de Thierry WEN"></a>
+	  	</div>
+	  		
+	</header>
+
+	    <nav>
+	    	<p>Site du <a href="http://www.ai.univ-paris8.fr/~chalencon/Web/index.html" target="blank">cours</a>.</p>
+		    <ul>
+		      <li><a href="cv.html" target="blank">CV</a></li>
+		      <li><a href="loremipsum.html" target="blank">Loremipsum</a></li>
+		      <li><a href="LeMonde.html" target="blank">LeMonde</a></li>
+		      <li><a href="ex3.html" target="blank">Ex3</a></li>
+		      <li><a href="ex5.html" target="blank">Ex5</a></li>
+		      <li><a href="ex6.html" target="blank">Ex6</a></li>
+		      <li><a href="ex7.html" target="blank">Ex7 - Zones cliquables</a></li>
+		      <li><a href="ex9.html" target="blank">Ex9 - Formulaire</a></li>
+		      <li><a href="ex10.html" target="blank">Ex10 - Suite de Fibonacci</a></li>
+		      <li><a href="ex11.html" target="blank">Ex11 - Horloge</a></li>
+		      <li><a href="ex12.html" target="blank">Ex12 - Couleur</a></li>
+		      <li><a href="ex13.html" target="blank">Ex13 - Soumettre un mot</a></li>
+		    </ul>
+		</nav>
+
+	    <section>
+			<article>
+
+			    <h1> Informations personelles </h1>
+
+			    <form>
+			      <fieldset>
+				<legend> État civil </legend>
+				Civilité
+				<div>
+				  <select name="civilite">
+				    <option value="m"> M. </option>
+				    <option value="mme"> Mme. </option>
+				  </select>
+				</div>
+				Nom
+				<div>
+				  <input type="text" name="nom">
+				</div>
+				Prénom
+				<div>
+				  <input type="text" name="prenom"> 
+				</div>
+				Date de naissance
+				<div>
+				  <input type="text" name="date" placeholder="jj/mm/aaaa">
+				</div>
+				Commune de naissance
+				<div>
+				  <input type="text" name="commune">
+				</div>
+				  <select name="commune">
+				    <option value="paris"> Paris </option>
+				    <option value="ardennes"> Ardennes </option>
+				    <option value="lille"> Lille </option>
+				    <option value="hong kong"> Hong Kong </option>
+				    <option value="autre"> Autre </option>
+				  </select>
+			      </fieldset>
+			      
+			      <fieldset>
+				<legend> Coordonnées </legend>
+				Téléphone
+				<div>
+				  <input type="tel" name="tel">
+				</div>
+				Courriel
+				<div>
+				  <input type="email" name="email">
+				</div>
+				Site Web
+				<div>
+				  <input type="url" name="url">
+				</div>
+			      </fieldset>
+
+			      <fieldset>
+				<legend> Compétences </legend>
+				Niveau d'anglais :
+				<label for="c1"> C1 </label>
+				<input type="radio" name="pref" id="c1">
+				<label for="b1"> B1 </label>
+				<input type="radio" name="pref" id="b1">
+				<label for="a1"> A1 </label>
+				<input type="radio" name="pref" id="a1">
+			        </br>
+				Langages informatiques :
+				<label for="html"> HTML </label>
+				<input type="checkbox" name="html" id="html">
+				<label for="css"> CSS </label>
+				<input type="checkbox" name="css" id="css">
+				<label for="javascript"> Javascript </label>
+				<input type="checkbox" name="javascript" id="javascript">
+				<label for="php"> PHP </label>
+				<input type="checkbox" name="php" id="php"> </br>
+			      </fieldset>
+			      <input type="submit" value="Envoyer" />
+			      <input type="reset" value="Annuler" />
+			    </form>
+			</article>
+    	</section>
+
+	    <footer>
+	      <p>Retour en <a href="#haut">haut de page</a></p>
+	    </footer>
+  </body>
+</html>
